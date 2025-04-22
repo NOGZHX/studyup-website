@@ -24,16 +24,21 @@ header {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 header .social-icons {
   margin-top: 10px;
 }
 
-header .social-icons img {
-  width: 40px; /* Tamanho das logos */
-  height: 40px;
+header .social-icons a {
   margin: 0 10px;
+  text-decoration: none;
+}
+
+header .social-icons img {
+  width: 40px;
+  height: 40px;
   transition: transform 0.3s ease;
 }
 
