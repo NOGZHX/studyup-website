@@ -1,0 +1,202 @@
+/* Geral */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181818; /* Escuro, mais moderno */
+  color: white;
+  text-align: center; /* Garantir que o texto fique centralizado */
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #1D1D1F;
+}
+
+header .logo h1 {
+  color: #00D1FF; /* Azul mais vibrante para o logo */
+  font-size: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #00D1FF;
+}
+
+header .social-icons a {
+  margin-left: 1rem;
+}
+
+header .social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s;
+}
+
+header .social-icons a:hover img {
+  opacity: 0.7;
+}
+
+/* === Seção Sobre === */
+.sobre {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sobre h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.sobre p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* === Seção de Serviços === */
+.servicos {
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Garantir que a imagem não será cortada */
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+/* === Seção de Contato === */
+.contato {
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contato h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contato-paineis {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contato-info, .contato-formulario {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contato-info h3, .contato-formulario h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contato-info p, .contato-formulario input, .contato-formulario textarea {
+  font-size: 1rem;
+}
+
+.contato-formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contato-formulario input, .contato-formulario textarea, .contato-formulario button {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contato-formulario input, .contato-formulario textarea {
+  background: #2C2C34;
+  color: #fff;
+  outline: none;
+}
+
+.contato-formulario button {
+  background: linear-gradient(to right, #00D1FF, #1A73E8);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contato-formulario button:hover {
+  background: linear-gradient(to right, #1A73E8, #00D1FF);
+}
+
+footer {
+  padding: 1rem;
+  background-color: #1D1D1F;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
